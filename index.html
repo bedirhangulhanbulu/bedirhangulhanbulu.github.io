@@ -16,7 +16,6 @@
         @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,400&display=swap');
 
         * {
-
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -32,20 +31,16 @@
             flex-direction: column;
             align-items: center;
             font-style: italic;
-
-
         }
 
 
         a {
             text-decoration: none;
             color: #232323;
-           
-           
         }
 
         .name {
-            margin-top: 2rem;
+            margin-top: 1rem;
             font-size: 2rem;
             font-style: normal;
             color: #232323;
@@ -53,8 +48,8 @@
         }
 
         .about {
-            margin-top: 1rem;
-            margin-bottom: 1rem;
+            margin-top: .5rem;
+            margin-bottom: .5rem;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -66,33 +61,26 @@
             font-size: 1rem;
             color: #232323;
             font-weight: 600;
-
         }
 
         .about-content {
             width: 50%;
-            margin-left: 1rem;
-            margin-right: 1rem;
+            margin-left: .5rem;
+            margin-right: .5rem;
         }
 
         .about-content>p {
-
             font-size: .9rem;
             font-weight: 400;
-
         }
 
         .works {
-            margin-top: 1rem;
-
-
+            margin-top: .5rem;
         }
 
         .works-title {
             font-size: 1rem;
-
             font-weight: 600;
-
             margin-bottom: .5rem;
             color: #232323;
 
@@ -112,7 +100,7 @@
         }
 
         .contact {
-            margin-top: 1rem;
+            margin-top: .5rem;
             font-weight: 400;
             font-style: inherit;
         }
@@ -121,23 +109,25 @@
             margin-bottom: .5rem;
             color: #232323;
             font-weight: 600;
-
-
+        }
+        .contact-content{
+            margin-left: .5rem;
+            margin-right: .5rem;
         }
 
-        footer {
+        .footer {
             margin-top: 1rem;
             font-size: 1rem;
             display: flex;
             flex-direction: column;
-            place-items: center;
-            
-           
+            align-items: center;
+
+
+
         }
 
-        footer .social-link {
-        
-        }
+       
+
     </style>
 
     <main>
@@ -176,10 +166,8 @@
                 <p>Benim için video yap: <a href="mailto:webmaster@example.com">gulhanbulu07@gmail.com</a></p>
             </div>
         </section>
-
-    </main>
-    <footer>
-        <p>Sosyal Ağlar</p>
+        <section class="footer">
+             <p>Sosyal Ağlar</p>
         <div class="social-link">
             <a href="https://twitter.com/BuluBedirhan1" target="_blank">
                 <ion-icon name="logo-twitter"></ion-icon>
@@ -194,9 +182,14 @@
                 <ion-icon name="logo-linkedin"></ion-icon>
             </a>
         </div>
-    </footer>
+        </section>
+
+    </main>
+   
 
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body></html>
+</body>
+
+</html>
