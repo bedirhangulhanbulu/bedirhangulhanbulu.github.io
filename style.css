@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:ital,wght@0,900;1,500&family=Rubik:wght@300;400;500;600;700&display=swap');
+
 *,
 ::after,
 ::before {
@@ -24,7 +26,7 @@
     --c-bg-alt: hsl(0, 0%, 96%);
     --c-text: #444;
     --c-text-alt: #555;
-    --f-family: "Georgia", serif;
+    --f-family: 'Roboto', sans-serif;
     --f-size: 15px;
     --f-height: 28px;
     --f-weight: 400;
@@ -43,8 +45,18 @@ body {
 header {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 1rem;
+    grid-gap: 0.5rem;
     padding: 3rem 1rem 1rem
+}
+
+header .profile-picture {
+    object-fit: contain;
+    object-position: center;
+    width: 25%;
+    height: auto;
+    padding: 0;
+
+
 }
 
 @media (min-width:600px) {
@@ -191,7 +203,7 @@ footer small {
 
 .project-image {
     margin: auto;
-    width: 75%;
+    width: 95%;
     height: auto;
     border-radius: 5px;
     box-shadow: rgba(149, 157, 165, .2)0 8px 24px;
